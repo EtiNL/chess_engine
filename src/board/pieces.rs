@@ -50,7 +50,6 @@ pub mod pieces {
       moves & !occupancy_color
   }
 
-
   fn pseudo_possible_knight_move(knights: u64, occupancy_color: u64) -> u64 {
     let mut moves: u64 = 0;
 
@@ -92,7 +91,6 @@ pub mod pieces {
     }
     moves & !occupancy_color
   }
-
 
   fn pseudo_possible_bishop_move(bishops: u64, occupancy_color: u64, occupancy: u64) -> u64 {
     let mut moves: u64 = 0;
